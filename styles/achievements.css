@@ -1,0 +1,74 @@
+section#achievements {
+  width: 100%;
+  padding: 64px 0;
+  background-color: var(--header-bg-color);
+}
+
+section#achievements div#achievements-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+section#achievements
+  div#achievements-wrapper
+  div.left-achievements
+  p:nth-child(1) {
+  font-size: 36px;
+  color: var(--d-grey);
+  font-weight: bolder;
+}
+
+section#achievements
+  div#achievements-wrapper
+  div.left-achievements
+  p:nth-child(2) {
+  font-size: 36px;
+  color: var(--primary-color);
+  font-weight: bolder;
+}
+
+section#achievements
+  div#achievements-wrapper
+  div.left-achievements
+  p:nth-child(3) {
+  font-size: 16px;
+  color: var(--font-black);
+  font-weight: normal;
+  padding-top: 10px;
+}
+
+section#achievements div#achievements-wrapper div.right-achievements {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+section#achievements div#achievements-wrapper div.right-achievements > div {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  justify-content: space-between;
+}
+
+div.person {
+  display: flex;
+  margin: 20px 40px;
+}
+
+div.person img {
+  width: 50%;
+  margin-right: 20px;
+}
+
+div.person div p:first-child {
+  color: #4d4d4d;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+div.person div p:last-child {
+  color: #717171;
+  font-size: 14px;
+}

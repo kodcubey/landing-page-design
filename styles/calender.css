@@ -1,0 +1,43 @@
+section#calender {
+  width: 100%;
+}
+
+section#calender div.calender-wrapper {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+}
+
+section#calender div.right-calender {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section#calender div.right-calender .calender-title {
+  color: #4d4d4d;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+section#calender div.right-calender .calender-content {
+  color: #717171;
+  font-size: 14px;
+  margin: 16px 0 32px 0;
+}
+
+section#calender div.right-calender a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background-color: #4caf4f;
+  color: white;
+  border-radius: 5px;
+}

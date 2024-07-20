@@ -1,0 +1,42 @@
+section#unlock {
+  width: 100%;
+  margin: 62px 0 48px 0;
+  padding: 100px 0;
+}
+
+section#unlock div#unlock-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+
+section#unlock div#unlock-wrapper div.right-unlock-svg {
+  width: 600px;
+}
+
+section#unlock div#unlock-wrapper div.right-unlock-svg p:first-child {
+  font-size: 36px;
+  color: var(--d-grey);
+  font-weight: bold;
+}
+
+section#unlock div#unlock-wrapper div.right-unlock-svg p:nth-child(2) {
+  font-size: 14px;
+  font-weight: normal;
+  padding: 16px 0 32px 0;
+  color: var(--n-grey);
+}
+
+section#unlock div#unlock-wrapper div.right-unlock-svg a {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  width: 150px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 5px;
+  font-size: 16px;
+}

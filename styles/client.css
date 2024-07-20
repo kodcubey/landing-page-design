@@ -1,0 +1,35 @@
+section#clients {
+  width: 100%;
+  margin: 40px 0;
+}
+
+section#clients div#client-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+section#clients div#client-wrapper div.client-title-content {
+  text-align: center;
+}
+
+section#clients div#client-wrapper div.client-title-content p.client-title {
+  font-size: 36px;
+  color: var(--d-grey);
+  font-weight: bold;
+  padding-bottom: 8px;
+}
+
+section#clients div#client-wrapper div.client-title-content p.client-sub-title {
+  font-size: 16px;
+  color: var(--n-grey);
+}
+
+section#clients div#client-wrapper div.client-logos {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 100px;
+  margin-top: 16px;
+}

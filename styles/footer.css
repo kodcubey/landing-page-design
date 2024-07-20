@@ -1,0 +1,105 @@
+footer {
+  width: 100%;
+  background-color: #f5f7fa;
+}
+
+footer .slogan {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 32px 0;
+}
+
+footer .slogan p {
+  font-size: 64px;
+  color: #263238;
+  font-weight: 600;
+}
+
+footer div.slogan a {
+  display: flex;
+  width: 180px;
+  height: 50px;
+  background-color: #4caf4f;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  margin-top: 32px;
+}
+
+footer div.slogan a img {
+  margin-left: 10px;
+}
+
+.main-footer {
+  width: 100%;
+  height: 100%;
+  background-color: #263238;
+  padding: 64px 0;
+}
+
+.main-footer .footer-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-footer p {
+  color: #f5f7fa;
+  font-weight: 300;
+}
+
+.main-footer .footer-wrapper .left-footer .footer-slogan {
+  padding: 40px 0;
+}
+
+.footer-social-logo {
+  display: flex;
+  gap: 15px;
+}
+
+.right-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.box {
+  width: 200px;
+}
+
+.box p:not(.box-title) {
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+footer p.box-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+footer div.box input {
+  border: none;
+  background-color: #89939e;
+  width: 255px;
+  height: 40px;
+  padding: 12px;
+  border-radius: 10px;
+  color: white;
+}
+
+footer div.box input::placeholder {
+  color: white;
+}
+
+footer div.box input:focus-visible {
+  outline: none;
+}
